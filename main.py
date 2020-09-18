@@ -12,7 +12,7 @@ import discord, os, json
 from discord.ext import commands
 from discord.ext.commands import Bot
 
-#https://discord.com/api/oauth2/authorize?client_id=709262126971224084&permissions=0&scope=bot
+
 
 
 class MyClient(discord.Client):
@@ -47,6 +47,6 @@ def gen(encodedid, encodedstamp):
         print(f'{C.WHITE}{token} {C.BLACK}: {C.RED}Invalid')
 
 
-token = os.environ.get("YOUR BOT TOKEN HERE")
+token = os.environ.get("NzQyMzU4ODk5MTE3Nzg1MjA5.XzE9mQ.aRFOGRS4GtF_FgQOtUqj_Mkkif8")
 client = MyClient()
-client.run("YOUR BOT TOKEN HERE")
+client.run("NzQyMzU4ODk5MTE3Nzg1MjA5.XzE9mQ.aRFOGRS4GtF_FgQOtUqj_Mkkif8")
